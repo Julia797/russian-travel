@@ -1,0 +1,11 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 1px solid red;*/
+  color: #FFF;
+  max-height: 1005px;
+  min-height: 406px;
+  max-width: 984px;
+  min-width: 320px;
+ }

@@ -1,0 +1,32 @@
+.lead__title {
+  margin: 0 0 32px 0;
+  min-height: 200px;
+  max-width: 720px;
+  font-family: Inter;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  /*border: 1px solid red;*/
+}
+@media screen and (max-width : 768px) {
+  .lead__title {
+    font-size: calc(40px + (96 - 40) * (100vw - 320px) / (768 - 320));
+    line-height: calc(44px + (100 - 44) * (100vw - 320px) / (768 - 320));
+    min-height: calc(44px + (200 - 88) * (100vw - 320px) / (768 - 320));
+    max-width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
+    margin-bottom: calc(16px + (32 - 16) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .lead__title {
+    min-height: 88px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 0 16px 0;
+    min-height: 88px;
+    max-width: 288px;
+  }
+}

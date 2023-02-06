@@ -2,14 +2,13 @@
   margin: 0;
   height: 52px;
   max-width: 1184px;
-  width: 92%;
+  width: 93%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   justify-content: space-between;
   padding: 0 0 56px 0;
-  
 }
 
 @media screen and (max-width: 1280px) {
@@ -17,17 +16,17 @@
     padding-bottom: calc(48px + (56 - 48) * (100vw - 1024px) / (1280 - 1024));
   }
 }
-  
+
 @media screen and (max-width: 1024px) {
   .header {
-    
+
     padding: 0 0 48px 0;
   }
 }
-  
+
 @media screen and (max-width : 768px) {
   .header {
-    
+
     }
 }
 
@@ -38,6 +37,5 @@
  }
 
 }
-  
-  
-  
+
+
