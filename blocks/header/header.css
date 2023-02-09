@@ -1,14 +1,15 @@
 .header {
   margin: 0;
-  height: 52px;
-  max-width: 1184px;
-  width: 93%;
+  min-height: 52px;
+  max-width: 1280px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*border: 1px solid red;*/
   justify-content: space-between;
-  padding: 0 0 56px 0;
+  padding-top: 28px;
+  padding-bottom: 56px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1280px) {
@@ -20,22 +21,26 @@
 @media screen and (max-width: 1024px) {
   .header {
 
-    padding: 0 0 48px 0;
+    /*padding: 28px 48px 48px 48px;*/
   }
 }
 
 @media screen and (max-width : 768px) {
   .header {
+    /*padding: 28px 24px 48px 24px;*/
+    padding-top: calc(16px + (28 - 16) * (100vw - 320px) / (768 - 320));
 
-    }
+  }
 }
 
 @media screen and (max-width : 320px) {
   .header {
     height: 42px;
     max-width: 288px;
- }
-
+    padding-top: 16px;
+    padding-bottom: 48px;
 }
+  }
+
 
 
