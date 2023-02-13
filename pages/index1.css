@@ -83,7 +83,7 @@
   font-family: Inter;
   font-size: 54px;
   font-weight: 900;
-  line-height: 58px;
+  line-height: 107%;
   text-align: left;
   min-height: 58px;
   max-width: 690px;
@@ -107,7 +107,7 @@
 @media screen and (max-width : 768px) {
   .intro__title {
     font-size: calc(32px + (54 - 32) * (100vw - 320px) / (768 - 320));
-    line-height: calc(35px + (58 - 35) * (100vw - 320px) / (768 - 320));
+    /*line-height: calc(35px + (58 - 35) * (100vw - 320px) / (768 - 320));*/
     min-height: calc(58px + (58 - 70) * (100vw - 320px) / (768 - 320));
     max-width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
     height: 58px;
@@ -120,7 +120,7 @@
     min-height: 70px;
     max-width: 288px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 109%;
 }
 }
 
@@ -130,7 +130,7 @@
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 163%;
   text-align: left;
   min-height: 208px;
   max-width: 690px;
@@ -151,11 +151,13 @@
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 150%;
   text-align: left;
   padding: 0;
   margin: 0;
 }
+
+
 .intro__list-large {
   font-weight: 700;
 }
@@ -364,7 +366,7 @@
   font-size: 72px;
   font-weight: 900;
   letter-spacing: normal;
-  line-height: 76px;
+  line-height: 105%;
   text-align: left;
   color: #FFF;
   padding: 0;
@@ -390,15 +392,15 @@
 @media screen and (max-width : 768px) {
   .plase__title {
     font-size: 42px;
-    line-height: 46px;
+    line-height: 109%;
     padding-left: 10px;
   }
 }
 @media screen and (max-width : 320px) {
 .plase__title {
   font-size: 32px;
-  line-height: 35px;
   padding-left: 16px;
+
   }
 }
 
@@ -428,15 +430,17 @@
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 166%;
   text-align: left;
   letter-spacing: 2px;
 }
 
 
+
+
 @media screen and (max-width : 768px) {
   .place__url-heading {
-    line-height: 12px;
+    line-height: 100%;
   }
 }
 
@@ -448,7 +452,7 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 122%;
   text-align: left;
  }
 
@@ -491,7 +495,8 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 29px;
+  /*line-height: 29px;*/
+  line-height: 163%;
   text-align: left;
   margin: 0;
 
@@ -500,7 +505,8 @@
     .place__paragraph {
       font-family: Inter;
       font-size: 16px;
-      line-height: 26px;
+      /*line-height: 26px;*/
+
     }
   }
 
@@ -530,6 +536,7 @@
 }
 @media screen and (max-width : 768px) {
   .cover {
+
   }
 }
 @media screen and (max-width : 320px) {
@@ -596,14 +603,21 @@
 .cover__title {
   margin: 0 0 32px 0;
   color: #FFF;
-  height: 152px;
+  min-height: 152px;
   max-width: 560px;
   font-family: Inter;
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px;
+  line-height: 109%;
   text-align: center;
   z-index: 2;
+}
+
+@media screen and (max-width : 768px) {
+  .cover__title {
+   font-size: calc(32px + (72 - 32) * (100vw - 320px) / (768 - 320));
+   margin-bottom:  calc(16px + (32 - 16) * (100vw - 320px) / (768 - 320));
+  }
 }
 
 @media screen and (max-width : 320px) {
@@ -611,7 +625,7 @@
   min-height: 70px;
   max-width: 288px;
   font-size: 32px;
-  line-height: 35px;
+  /*line-height: 35px;*/
   margin: 0 0 16px 0;
   }
 }
@@ -624,16 +638,22 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 114%;
   text-align: center;
   z-index: 2;
+}
+
+@media screen and (max-width : 768px) {
+  .cover__subtitle {
+   font-size: calc(14px + (18 - 14) * (100vw - 320px) / (768 - 320));
+  }
 }
 
 @media screen and (max-width : 320px) {
   .cover__subtitle {
     font-size: 14px;
-    line-height: 16px;
-    height: 48px;
+    /*line-height: 16px;*/
+    min-height: 48px;
     max-width: 288px;
   }
 }
@@ -698,14 +718,14 @@
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 112%;
   text-align: left;
 }
 
 @media screen and (max-width : 320px){
   .footer__link {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 100%;
   }
 }
 
@@ -719,14 +739,14 @@
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 114%;
   text-align: right;
 }
 
 
 @media screen and (max-width : 320px) {
   .footer__copyright {
-    line-height: 14px;
+    line-height: 100%;
     text-align: left;
   }
 }

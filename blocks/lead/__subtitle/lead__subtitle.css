@@ -5,7 +5,7 @@
   font-family: Inter;
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 120%;
   text-align: center;
   /*border: 1px solid red;*/
 }
@@ -25,7 +25,7 @@
 @media screen and (max-width : 768px) {
   .lead__subtitle {
     font-size: calc(16px + (30 - 16) * (100vw - 320px) / (768 - 320));
-    line-height: calc(20px + (36 - 20) * (100vw - 320px) / (768 - 320));
+
     min-height: calc(40px + (72 - 40) * (100vw - 320px) / (768 - 320));
     max-width: calc(288px + (640 - 288) * (100vw - 320px) / (768 - 320));
     margin-bottom: calc(40px + (56 - 40) * (100vw - 320px) / (768 - 320));
@@ -37,7 +37,7 @@
     min-height: 40px;
     max-width: 288px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 125%;
     margin: 0 0 40px 0;
   }
 }
