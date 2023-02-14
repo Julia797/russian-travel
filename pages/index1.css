@@ -186,9 +186,9 @@
 
 .photo-grid__item {
   width: 100%;
-  /*object-fit: cover;*/
-    margin: 0;
-    display: block;
+  object-fit: cover;
+  margin: 0;
+  display: block;
 }
 
 
@@ -423,6 +423,7 @@
 
 @media screen and (max-width : 768px) {
   .place__paragraphs {
+
    gap: 25px;
   }
 }
@@ -430,17 +431,18 @@
 @media screen and (max-width : 320px) {
   .place__paragraphs {
     padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
 
 .place__paragraph {
-  color: #FFF;
+  color: #ca1010;
   width: 100%;
   font-family: Inter, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 163%;
+  line-height: 162%;
   text-align: left;
   margin: 0;
 }
