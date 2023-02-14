@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*border: 1px solid red;*/
   color: #FFF;
+  font-family: Inter, Arial, sans-serif;
   min-height: 406px;
   max-width: 1280px;
   width: 100%;
@@ -22,14 +22,11 @@
   .lead {
     padding-left: calc(0px + (48 - 0) * (100vw - 768px) / (1024 - 768));
     padding-right: calc(0px + (48 - 0) * (100vw - 768px) / (1024 - 768));
-
-    /*padding: 0 48px 0 48px;*/
   }
 }
 
 @media screen and (max-width : 768px) {
   .lead {
-
   }
 }
 
