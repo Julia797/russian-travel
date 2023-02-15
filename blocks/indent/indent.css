@@ -10,14 +10,14 @@
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .indent {
     padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
     padding-right: calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
   .indent {
     padding-left: 16px;
     padding-right: 16px;

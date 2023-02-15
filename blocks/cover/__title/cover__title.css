@@ -11,7 +11,7 @@
   z-index: 2;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .cover__title {
    font-size: calc(32px + (72 - 32) * (100vw - 320px) / (768 - 320));
    margin-bottom: calc(16px + (32 - 16) * (100vw - 320px) / (768 - 320));
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
   .cover__title {
   min-height: 70px;
   max-width: 288px;
