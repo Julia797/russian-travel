@@ -25,7 +25,7 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__items/photo-grid__items.css);
-@import url(../blocks/plases/__container/plases__container.css);
+@import url(../blocks/plases-container/plases-container.css);
 @import url(../blocks/plases/plases.css);
 @import url(../blocks/plase/plase.css);
 @import url(../blocks/plase/__image/plase__image.css);
