@@ -1,0 +1,23 @@
+.place__paragraph {
+  color: #FFF;
+  width: 100%;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 162%;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (max-width : 1024px) {
+  .place__paragraph {
+    font-size: calc(16px + (18 - 16) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+  @media screen and (max-width : 768px) {
+    .place__paragraph {
+      font-size: 16px;
+    }
+  }
+

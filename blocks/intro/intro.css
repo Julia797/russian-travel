@@ -1,0 +1,41 @@
+.intro {
+  min-height: 429px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin: 0;
+  padding: 92px 442px 92px 148px;
+  box-sizing: border-box;
+  }
+@media screen and (max-width: 1280px) {
+  .intro {
+    padding-right: calc(286px + (442 - 286) * (100vw - 1024px) / (1280 - 1024));
+    padding-left: calc(48px + (148 - 48) * (100vw - 1024px) / (1280 - 1024));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-top: calc(88px + (92 - 88) * (100vw - 768px) / (1024 - 768));
+    padding-right: calc(24px + (286 - 24) * (100vw - 768px) / (1024 - 768));
+    padding-bottom: calc(88px + (92 - 88) * (100vw - 768px) / (1024 - 768));
+    padding-left: calc(24px + (48 - 24) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: calc(64px + (88 - 64) * (100vw - 320px) / (768 - 320));
+    padding-right: calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
+    padding-bottom: calc(64px + (88 - 64) * (100vw - 320px) / (768 - 320));
+    padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 64px 16px 64px 16px;
+  }
+}
+

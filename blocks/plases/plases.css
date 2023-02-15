@@ -1,0 +1,40 @@
+.plases {
+  padding: 92px 148px 92px 148px;
+  max-width: 1280px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+ }
+
+ @media screen and (max-width: 1280px) {
+   .plases {
+    padding-right: calc(48px + (148 - 48) * (100vw - 1024px) / (1280 - 1024));
+    padding-left:  calc(48px + (148 - 48) * (100vw - 1024px) / (1280 - 1024));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .plases {
+    padding-top: calc(88px + (92 - 88) * (100vw - 768px) / (1024 - 768));
+    padding-right: calc(24px + (48 - 24) * (100vw - 768px) / (1024 - 768));
+    padding-bottom: calc(90px + (92 - 90) * (100vw - 768px) / (1024 - 768));
+    padding-left:  calc(24px + (48 - 24) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plases {
+    padding-top: calc(64px + (88 - 64) * (100vw - 320px) / (768 - 320));
+    padding-bottom: calc(66px + (90 - 66) * (100vw - 320px) / (768 - 320));
+    padding-right: calc(0px + (24 - 0) * (100vw - 320px) / (768 - 320));
+    padding-left:  calc(0px + (24 - 0) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .plases {
+    padding: 64px 0px 66px 0px;
+  }
+}
+
+
