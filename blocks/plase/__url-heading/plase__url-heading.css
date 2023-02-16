@@ -1,4 +1,4 @@
-.place__url-heading {
+.plase__url-heading {
   color: #FFF;
   margin: 0 0 12px 0;
   font-family: Inter, Arial, sans-serif;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__url-heading {
+  .plase__url-heading {
     line-height: 100%;
   }
 }

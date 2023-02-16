@@ -1,4 +1,4 @@
-.plases-container {
+.plases__container {
   margin: 0;
   padding: 0;
   display: flex;
@@ -8,17 +8,17 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .plases-container {
+  .plases__container {
     gap: calc(73px + (80 - 73) * (100vw - 768px) / (1024 - 768));
   }
 }
 @media screen and (max-width: 768px) {
-  .plases-container {
+  .plases__container {
     gap: calc(50px + (73 - 50) * (100vw - 320px) / (768 - 320));
   }
 }
 @media screen and (max-width: 320px) {
-  .plases-container {
+  .plases__container {
     gap: 50px;
   }
 }

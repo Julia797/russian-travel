@@ -1,4 +1,4 @@
-.place__paragraphs {
+.plase__paragraphs {
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraphs {
+  .plase__paragraphs {
    gap: 25px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__paragraphs {
+  .plase__paragraphs {
     padding-left: 16px;
     padding-right: 16px;
   }

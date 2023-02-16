@@ -1,5 +1,4 @@
 .lead__caption {
-  font-family: Inter;
   font-size: 10px;
   font-weight: 400;
   line-height: 140%;
@@ -18,8 +17,6 @@
 @media screen and (max-width: 768px) {
   .lead__caption {
     margin-left: calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
-    /*margin-left: 24px;*/
-
   }
 }
 

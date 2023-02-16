@@ -1,4 +1,4 @@
-.place__paragraph {
+.plase__paragraph {
   color: #FFF;
   width: 100%;
   font-family: Inter, Arial, sans-serif;
@@ -10,13 +10,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraph {
+  .plase__paragraph {
     font-size: calc(16px + (18 - 16) * (100vw - 768px) / (1024 - 768));
   }
 }
 
   @media screen and (max-width: 768px) {
-    .place__paragraph {
+    .plase__paragraph {
       font-size: 16px;
     }
   }
